@@ -1,0 +1,62 @@
+
+:javascript
+  var c=document.getElementById("myCanvas");
+  var ctx=c.getContext("2d");
+  ctx.fillStyle="#FF0000";
+  ctx.fillRect(0,0,150,75);
+  
+%h1 This is my first web page. -- homes#index
+%p How exciting!
+%p
+  Yes, it
+  %em is
+  very exciting.
+%p
+  How
+  %strong wonderful
+  it all will be!
+  %p/
+  %h2 Next we learn more
+  %ol
+    %li How to make lists
+    %li How to write code
+    %li Etc.
+  %h3
+    Where to find
+    %strong MY
+    website:
+  %p
+    %a{:href => "http://www.designgroupink.com"} DESIGN GROUP, INK.
+    %p
+      %img{:alt => "avilascene", :height => "176", :src => "http://www.designgroupink.com/images/Photography/avilascene.jpg", :width => "288"}
+        %p
+          Now we will
+          %em try
+          to make some tables.
+          %p/
+          %table
+            %tr
+              %td How to do this
+              %td All good men
+            %tr
+              %td row 2
+              %td
+                second</>
+          / Below was pasted.
+          %table{:border => "0"}
+            %tr
+              %td Row 1, cell 1
+              %td Row 1, cell 2
+              %td Row 1, cell 3
+            %tr
+              %td Row 2, cell 1
+              %td Row 2, cell 2
+              %td Row 2, cell 3
+            %tr
+              %td Row 3, cell 1
+              %td Row 3, cell 2
+              %td Row 3, cell 3
+            %tr
+              %td Row 4, cell 1
+              %td Row 4, cell 2
+              %td Row 4, cell 3
