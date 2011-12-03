@@ -7,11 +7,12 @@
 */
 
 body {
-  background: url(RussiaCoverSmall.jpg) top no-repeat black;
-  font-family: arial, helvetica, sans-serif;
+  margin: 0 auto;  
+  width: 1500px;
+  background: #000000; 
+  font-family: "Arial, Helvetica, sans-serif";
   color: white;
-  font-size: 90%;
-  margin: 5em;
+  font-size: 110%;
   padding: 0; 
   }
 
@@ -19,64 +20,65 @@ body {
 
 p {
   line-height: 1.5em; 
-  }
+  img {
+  	border: 0;
+  	box-shadow: 0;
+  } 
+}
+
 
 h1 {
-  color: beige;
-  background-color: MediumOrchid;
+  font-family:"Engravers MT", Arial, Helvetica, sans-serif;
+  color: #F5F5DC;
   font-size: 2em;
-  margin: 0;
-  margin-bottom: 0.5em;
-  padding: 0.25em;
-  font-style: bold;
+  margin: 1em;  
+  margin-bottom: 2em;
+  padding: 1em;
+  font-weight: 700;     /* bold */
   text-align: center;
-  letter-spacing: 0.5em;
-  border-bottom-style: solid;
-  border-bottom-width: 0.5em;
-  border-bottom-color: green;
-  text-shadow: 5px 5px 5px #FF0000; 
+  text-shadow: 3px 3px 5px #FFCC66; 
   }
 
 h2 {
+  font-family: "Engravers MT", Arial, Helvetica, sans-serif;
   color: black;
-  background-color: Moccasin;
-  font-size: 1.5em;
-  text-align: center;
-  margin: 0 10em;
-  padding: 0.1em;
-  padding-left: 1em;
-  padding-bottom: 0; 
+  background-color: #FFE4B5; 
+  font-size: 1em;
+  text-align: left;
+  margin: 0;
+  margin-right: 70em;
+  padding: 0; 
+  box-shadow: 5px 5px 5px #888888;
   }
 
 h3 {
-  color: #999;
+  color: #B8860B;
   font-size: 1.25em;
-  text-align: center; 
+  text-align: left; 
   }
+  
+h4 {
+	color: #F0F8FF;
+	font-size: smaller;
+	text-align: center;
+}  
 
 img {
+  float: left;
   border: 2px solid;
   box-shadow: 10px 10px 5px #888888;
   border-style: solid;
   border-width: 2px;
-  border-color: white; 
+  border-color: white;
+  padding: 3px 
   }
 
 a {
   color: white;
-  text-decoration: none; 
+  text-decoration: none;
   }
 
-strong {
-  font-style: italic;
-  text-transform: uppercase; 
-  }
+a:hover {
+  color: #00FFFF;     
+}
 
-li {
-  color: teal;
-  font-style: bold; 
-  }
-
-table {
-  background-color: #blue; 
-  }
